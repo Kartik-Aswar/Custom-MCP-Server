@@ -21,8 +21,8 @@ Follow these steps to get the FastMCP agent running:
 2.  **Clone the Repository (if you haven't already):**
     ```bash
     # Make sure you are in the correct parent directory
-    git clone https://github.com/sourangshupal/Build-Custom-MCP-Servers # Or use the current directory if already cloned
-    cd Build-Custom-MCP-Servers 
+    git clone https://github.com/Kartik-Aswar/Custom-MCP-Server.git # Or use the current directory if already cloned
+    cd Custom-MCP-Server 
     ```
 
 3.  **Set up Virtual Environment & Install Dependencies:**
@@ -47,7 +47,7 @@ Follow these steps to get the FastMCP agent running:
     *   Edit the newly created `.env` file and add your API keys:
         ```dotenv
         WEATHER_API_KEY="YOUR_WEATHER_API_KEY"
-        BRAVE_API_KEY="YOUR_BRAVE_API_KEY"
+        SERPER_API_KEY="YOUR_SERPER_API_KEY"
         ```
 
 5.  **Run the Agent:**
@@ -66,7 +66,7 @@ Follow these steps to get the FastMCP agent running:
 
 *   Note-taking capabilities (add, read, latest, summarize) 📝
 *   Current weather fetching ☀️
-*   Brave Search integration for news 📰
+*   Serper Search integration for news 📰
 *   Configuration via `.env` file 🔑
 *   Built with `mcp[cli]` ⚙️
 
